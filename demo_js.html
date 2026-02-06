@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+	<head>
+		<script language="javascript">
+			function subtract() {
+			
+			var inputNum1;
+			var inputNum2;
+			
+			inputNum1 = prompt("Enter the larger number: ", 0);
+			inputNum2 = prompt("Enter the smaller number: ", 0);
+			var outputTotal = inputNum1 - inputNum2;
+			alert("Answer is: " + outputTotal);
+			}
+			
+			function multiply() {
+			
+			var inputNum1;
+			var inputNum2;
+			
+			inputNum1 = prompt("Enter the larger number: ", 0);
+			inputNum2 = prompt("Enter the smaller number: ", 0);
+			var outputTotal = inputNum1 * inputNum2;
+			alert("Answer is: " + outputTotal);
+			}
+			
+			function divide() {
+			
+			var inputNum1;
+			var inputNum2;
+			
+			inputNum1 = prompt("Enter the larger number: ", 0);
+			inputNum2 = prompt("Enter the smaller number: ", 0);
+			var outputTotal = inputNum1 / inputNum2;
+			alert("Answer is: " + outputTotal);
+			}
+			
+			function add() {
+			
+			var inputNum1;
+			var inputNum2;
+			
+			inputNum1 = prompt("Enter the larger number: ", 0);
+			inputNum2 = prompt("Enter the smaller number: ", 0);
+			var outputTotal = Number(inputNum1) + Number(inputNum2);
+			alert("Answer is: " + outputTotal);
+			}
+			
+			function showName() {
+			
+			var inputNum1;
+			
+			inputNum1 = prompt("Enter the name: ");
+			alert("Your name is: " + inputNum1);
+			}
+			
+		</script>
+	</head>
+	<body>
+		<form name = "myForm">
+			<h1>
+			    <p> Subtracting Numbers</p>
+			    <p> You will be asked for twp numbers</p>
+				<p> You will be shown the difference between the numbers</p>
+			</h1>
+		<input type="button" value="Start" onclick="subtract()";>
+		</form>
+		<form name = "myForm">
+			<h1>
+			    <p> Multiplying Numbers</p>
+			    <p> You will be asked for twp numbers</p>
+				<p> You will be shown the difference between the numbers</p>
+			</h1>
+		<input type="button" value="Start" onclick="multiply()";>
+		</form>
+		<form name = "myForm">
+			<h1>
+			    <p> Dividing Numbers</p>
+			    <p> You will be asked for twp numbers</p>
+				<p> You will be shown the difference between the numbers</p>
+			</h1>
+		<input type="button" value="Start" onclick="divide()";>
+		</form>
+		<form name = "myForm">
+			<h1>
+			    <p> Adding Numbers</p>
+			    <p> You will be asked for twp numbers</p>
+				<p> You will be shown the difference between the numbers</p>
+			</h1>
+		<input type="button" value="Start" onclick="add()";>
+		</form>
+		<form name = "myForm">
+			<h1>
+			    <p> Name</p>
+			</h1>
+		<input type="button" value="Start" onclick="showName()";>
+		</form>
+	</body>
+</html>
